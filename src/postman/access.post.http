@@ -1,0 +1,21 @@
+@url_dev= http://localhost:8080/v1/api
+
+### signup
+# POST {{url_dev}}/shop/signup
+# Content-Type: application/json
+
+# {
+#     "name":"Ben",
+#     "email":"ben@gmail.com",
+#     "password":"adc123"
+# }
+
+POST {{url_dev}}/shop/signup
+Content-Type: application/json
+x-api-key:1baa22805be2028bf153b1f116c545c7edcb455640ed939b2fa55386bc422a43e289acd62b9be99d0d2e4b5877e8506b996987e86558aef0861537fd85876693
+
+{
+    "name":"Ben",
+    "email":"ben1@gmail.com",
+    "password":"adc123"
+}
